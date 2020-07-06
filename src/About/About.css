@@ -1,0 +1,23 @@
+.about-section__main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+
+    margin: auto;
+  }
+  .about-section__main > section {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 1.5rem;
+  }
+  .about-section{
+      margin: 50px 20px 25px 20px;
+      background-color:white;
+  }
+
+ .section__title{   
+      color: red;
+      text-transform: uppercase;
+  }
+
+.section__sub{
+    color: red;
+}
