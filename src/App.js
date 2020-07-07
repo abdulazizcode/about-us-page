@@ -9,6 +9,7 @@ import Cookie from "./Cookie/Cookie";
 import Login from "./Login/Login";
 import Restore from "./Login/Restore-Password/Restore";
 import Confirm from "./Login/Restore-Password/Confirm";
+import  Reset from "./Login/Restore-Password/Reset";
 import { BrowserRouter, Route } from "react-router-dom";
 
 
@@ -19,8 +20,8 @@ const App = () =>{
                  <main>
                      
                     <Header/>
-                    {/* <Restore/> */}
-                    <Restore/>
+                     { /*<Restore/> */ }
+                    <Reset/>
                     {/* <Login/> */} 
                     {/* <Confirm/>*/}
 

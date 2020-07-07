@@ -17,8 +17,9 @@
     display: block;
 }
 input[type="email"],
+input[type="text"],
 input[type="password"]{
-    padding: 8px;
+    padding: 10px;
     border-radius: 3px;
     outline: none;
     border: 1px solid rgb(207, 207, 207);
@@ -44,7 +45,10 @@ input[type="password"]{
     border-radius: 18px;
     font-size: 20px;
 }
-
+button:focus {
+    outline: none;
+    box-shadow: none;
+  }
 
 /* Forgot Password Styles  Restore*/
 
@@ -77,3 +81,10 @@ input[type="password"]{
     width: 100%;
     border-radius: 10px;
 }
+.worning-red{
+    text-align: center;
+}
+
+.worning-red::placeholder {
+    color: red;
+  }
