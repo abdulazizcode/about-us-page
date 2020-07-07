@@ -49,7 +49,7 @@ const Footer = () =>{
 
                 <div className="footer__policy">
                     <p>By using our site you area agree to our Terms of Use.Read our <a href="">Privacy &#38; Policy.</a>
-                     &copy;2020 <a href="#">eve-yemek.com</a>.LLC.All right reserved.</p>
+                     &copy; {new Date().getFullYear()} <a href="#">eve-yemek.com</a>.LLC.All right reserved.</p>
                 </div>
             </div>
         </footer>

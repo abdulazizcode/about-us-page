@@ -6,6 +6,9 @@ import './main.css';
 import Privacy from "./Privacy/Privacy";
 import Terms from "./Terms/Terms";
 import Cookie from "./Cookie/Cookie";
+import Login from "./Login/Login";
+import Restore from "./Login/Restore-Password/Restore";
+import Confirm from "./Login/Restore-Password/Confirm";
 import { BrowserRouter, Route } from "react-router-dom";
 
 
@@ -14,7 +17,13 @@ const App = () =>{
     return(
         <BrowserRouter>
                  <main>
+                     
                     <Header/>
+                    {/* <Restore/> */}
+                    <Restore/>
+                    {/* <Login/> */} 
+                    {/* <Confirm/>*/}
+
                     <Route path='/about' component={About}></Route>
                     <Route path='/privacy' component={Privacy}></Route>
                     <Route path='/terms' component={Terms}></Route>

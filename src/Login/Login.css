@@ -1,0 +1,79 @@
+.main-login__container{
+    width: 400px;
+    margin:  0 auto;
+}
+.login-title__container{
+    padding: 25px 0 25px 0;
+}
+.login-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main-form__container{
+    height: 300px;
+
+}
+.main-form__container label{
+    display: block;
+}
+input[type="email"],
+input[type="password"]{
+    padding: 8px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(207, 207, 207);
+    width: 100%;
+}
+.flex-align{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.btn-login{
+    background-color:rgb(223,41,53);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 250px;
+    border-radius: 18px;
+    font-size: 20px;
+}
+
+
+/* Forgot Password Styles  Restore*/
+
+.btn-extra{
+    width: 100%;
+}
+.login-title-extra{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+.login-restore-p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Confirm Email to send Code page styles */
+
+.btn-login-resend{
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    width: 100%;
+    color: red;
+    font-size: 18px;
+    /* font-weight: bold; */
+    margin-top: 25px;
+}
+.btn-login-reset{
+    width: 100%;
+    border-radius: 10px;
+}
